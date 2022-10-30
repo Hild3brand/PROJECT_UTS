@@ -1,0 +1,129 @@
+/* 
+    +/-
+    2272004 - Jessica Alvina Luwia
+    2272037 - Rasyaad Hildebrand Gunawan
+*/
+
+.menu {
+  position: fixed; 
+  display: block; 
+  height: 50px; 
+  background-color: #3E5944; 
+  padding: 3px;
+  left: 0; right:0; top:0; 
+  z-index: 5;
+  overflow: hidden;
+  font-family: 'poppins';
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: right;
+  color: #ffffff;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+  color: #CBBFA0;
+}
+
+table.jarak {
+  margin-top: 100px;
+  margin-left: auto;  margin-right: auto;
+}
+
+.foto {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.kalimat {
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #005e9e;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Poppins";
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.target    {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.sosmed{
+  display: flex;
+  justify-content: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.3;
+}
+
+.fa-google {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
+}
+
+/* start https://blog.hubspot.com/website/remove-underline-from-links-css */
+a:link { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+/* end https://blog.hubspot.com/website/remove-underline-from-links-css */

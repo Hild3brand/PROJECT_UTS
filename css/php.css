@@ -1,0 +1,152 @@
+/*
+    +/-
+    2272004 - Jessica Alvina Luwia
+    2272037 - Rasyaad Hildebrand Gunawan
+*/
+
+body {
+    background-color: #3E5944;
+}
+
+.judul {
+    display: block;
+    background-color: #CBBFA0;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.judulhtml {
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 2px;
+    font-size: 25px;
+}
+
+.phpsederhana {
+    font-family: "Poppins";
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.materiphp {
+    color: #FFFFFF;
+    font-family: "Poppins"; 
+}
+
+.fotomateriphp {
+    width: 500px;
+}
+
+.fotomateriacphp {
+    width: 300px;
+}
+
+.fotomaterihasilphp {
+    width: 300px;
+}
+
+table {
+    width: 600px;
+    height: 200px;
+}
+
+.postget {
+    color: #FFFFFF;
+    font-family: "Poppins"; 
+    margin-left: 50px;
+}
+
+.postget2 {
+    color: #FFFFFF;
+    font-family: "Poppins"; 
+    margin-left: 100px;
+}
+
+.fotoformm {
+    width: 400px;
+    margin-left: 450px;
+}
+
+.formm {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.fotoinput {
+    width: 700px;
+    margin-left: 50px;
+}
+
+.table2 {
+    width: 1050px;
+    height: 200px;
+
+}
+
+.fotocombobox {
+    width: 300px;
+}
+
+.table3 {
+    width: 1000px;
+    height: 200px;
+
+}
+
+.kembali {
+    color: #CBBFA0;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 35px;
+    right: -80px;
+    margin-right: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.link {
+    color: #CBBFA0;
+    font-family: "Poppins"; 
+    font-size: 15px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+/* start https://blog.hubspot.com/website/remove-underline-from-links-css */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { opacity: 0.7; }
+a:active { text-decoration: none; }
+/* end https://blog.hubspot.com/website/remove-underline-from-links-css */
+
+/* start https://css-tricks.com/css-link-hover-effects/ */
+a.link {
+    position: relative;
+}
+   
+a.link::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #CBBFA0;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+   
+a.link:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+ }
+ /* end https://css-tricks.com/css-link-hover-effects/ */

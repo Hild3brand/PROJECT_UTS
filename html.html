@@ -1,0 +1,362 @@
+<!-- 
+    +/-
+    2272004 - Jessica Alvina Luwia
+    2272037 - Rasyaad Hildebrand Gunawan
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>| Materi HTML5</title>
+        <link rel="icon" href="images/logo_title.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/html.css">
+    </head>
+    
+    <body>
+        <!-- Back Button -->
+        <a href = "index.html"><h3 class = "kembali" align = "right">&lt KEMBALI</h3></a> 
+        
+        <!-- JUDUL -->
+        <div class="judul">
+            <p class = "judulhtmll"><b>HTML</b></p>
+        </div>
+        <br>
+
+        <hr size="3px" color="#CBBFA0">
+
+        <!-- Navigation Intrapage Link -->
+        <p class = "link">
+            <a href="#atr" class ="link">ATRIBUT DAN VALUE</a> | 
+            <a href="#head" class = "link">HEADING</a> | 
+            <a href="#par" class = "link">PARAGRAF</a> | 
+            <a href="#for" class = "link">FORMATTING</a> |
+            <a href="#font" class = "link">FONT</a> |
+            <a href="#link" class = "link">LINK</a> |
+            <a href="#intra" class = "link">INTRAPAGE LINK</a> |
+            <a href="#mailto" class = "link">MAILTO</a> | 
+            <a href="#image" class = "link">IMAGE</a> |
+            <a href="#marquee" class = "link">MARQUEE</a> |
+            <a href="#iframe" class = "link">IFRAME</a> |
+            <a href="#ulol" class = "link">UNORDER LIST DAN ORDER LIST</a> <br>
+            <a href="#table" class = "link">TABLE</a> |
+            <a href="#cols" class = "link">COLSPAN & ROWSPAN</a> |
+            <a href="#emmet" class = "link">EMMET</a> 
+        </p>
+
+        <hr size="3px" color="#CBBFA0">
+        <br>
+        
+        <!-- Materi Atribut dan Value -->
+        <p class = "atribute" id = "atr"><font color = "#CBBFA0"><b>ATRIBUT DAN VALUE</b></font><br><br>
+            &lt<font color = "#EE6983">body</font>   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font color = "#FF8787">bgcolor</font>  
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    
+            = "<font color = "#EB1D36">red</font>"&gt<br>
+            <font color = "#EE6983">HTML element</font>     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font color = "#FF8787">attribute</font>      
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<font color = "#EB1D36">value</font><br>
+            &lt/body&gt
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Heading -->
+        <p class = "atributeee" align = "center" id = "head"><font color = "#CBBFA0"><b>HEADING</b></font><br><br>
+            Biasanya digunakan untuk membuat judul pada halaman web.<br>
+            Tag heading pada HTML terdiri dari 6 tingkatan yaitu yang terdiri dari h1 , h2 , h3 , h4 , h5 , h6.
+            <br><br>
+            &lth1&gt &lt/h1&gt<br>
+            .<br>
+            .<br>
+            .<br>
+            .<br>
+            &lth6&gt &lt/h6&gt
+            <br><br>
+            &lth1 align = "right"> &lt/h1&gt
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Paragraf -->
+        <p class = "atributee" align = "right" id = "par"><font color = "#CBBFA0"><b>
+            PARAGRAF</b></font><br><br>
+            Pada web, paragraf biasanya digunakan untuk menampilkan teks atau artikel. 
+            Dibuat dengan tag &ltp&gt, ada juga tag pendukung lain 
+            seperti &ltdiv&gt , &lthr&gt , &ltbr&gt , dan &ltpre&gt.
+            <br><br>
+            &ltp&gt &lt/p&gt
+            <br><br>
+            &ltp align="center"&gt &lt/p&gt
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+        
+        <!-- Materi Formatting -->
+        <p class = "atribute" id = "for"><font color = "#CBBFA0"><b>
+            FORMATTING</b></font><br><br>
+            <ul class = "atribute">
+                <li>&ltb&gt<b>Memberikan efek huruf tebal</b>&lt/b&gt<br></li>
+                <li>&lti&gt<i>Memberikan efek cetak miring</i>&lt/i&gt<br></li>
+                <li>&ltu&gt<u>Memberikan efek huruf diberi garis</u>&lt/u&gt<br></li>
+                <li>Memberikan &ltsub&gt<sub>efek huruf dicetak subscript</sub>&lt/sub&gt<br></li>
+                <li>&lts&gt<s>efek huruf dicoret</s>&lt/s&gt<br></li>
+                <li>Memberikan &ltsup&gt<sup>efek huruf dicetak superscript</sup>&lt/sup&gt<br></li>
+                <li>&ltbig&gt<big>Huruf menjadi lebih besar dari ukuran normal</big>&lt/big&gt<br></li>
+                <li>&ltsmall&gt<small>Huruf menjadi lebih kecil dari ukuran normal</small>&lt/small&gt<br></li>
+
+            </ul>
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">    
+    
+        <!-- Materi Font -->
+        <p class = "atributeee" align = "center" id = "font"><font color = "#CBBFA0"><b>FONT</b></font><br><br>
+            Tag &ltfont&gt digunakan untuk mendefinisikan jenis, ukuran dan style font pada tulisan. 
+            <br><br>
+            &ltfont face = "arial" color = "purple"&gt&lt/font&gt
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black"> 
+
+        <!-- Materi Link -->
+        <p class = "atributee" align = "right" id = "link"><font color = "#CBBFA0">
+            <b>LINK</b></font><br>
+        </p>    
+
+        <table border = "0px" align = "center" class = "tablehello">
+            <tr>
+                <td><img src = "images/html/hello hasil.jpg" class = "treasurehello" align = "right"></td>
+                <td><p class = "atribute" align = "right">
+                    Berfungsi menghubungkan suatu halaman web ke halaman web yang lain.<br><br> 
+
+                    &lt<font color = "#FFD8A9">a</font> 
+                    <font color = "#FF884B">href</font> = 
+                    "<font color = "#F1A661">https://youtu.be/aPd9exmH17o</font>"><font color = "#EC994B">Treasure Hello</font><font color = "#FFD384">&lt/a&gt</font><br><br>
+
+
+                    <font color = "#FFD8A9">a</font> = tag untuk membuat link<br>
+                    <font color = "#FF884B">href</font> = atribut untuk menentukan alamat URL tujuan dari link<br>
+                    <font color = "#F1A661">https://youtu.be/aPd9exmH17o</font> = alamat URL yang akan dibuka jika di klik<br>
+                    <font color = "#EC994B">Treasure Hello</font> = teks label untuk link <br>
+                    <font color = "#FFD384">&lt/a&gt</font> = tag penutup
+                </p></td>
+            </tr>
+                
+            <tr>
+                <td colspan="2" align="center"><a href = "https://youtu.be/aPd9exmH17o" class="button" target="_blank">Treasure Hello</a></td>
+            </tr>
+        </table>
+        <br>
+
+        <hr width = "1150px" size = "5px" color = "black"> 
+
+        <!-- Materi Intrapage Link -->
+        <p class = "atribute" id = "intra"><font color = "#CBBFA0"><b>
+            INTRAPAGE LINK</b></font><br><br>
+            Untuk memiliki tautan dalam dokumen yang secara otomatis 
+            akan pergi ke lokasi lain dalam dokumen yang sama. <br><br>
+
+            &lth1 id = "bagian1">Lorem 1 &lt/h1&gt<br>
+            &lta href = "#bagian2"> Ke Bagian 2&lt/a&gt<br>
+            &lth1 id = "bagian2">Lorem 2&lt/h1&gt<br>
+            &lta href = "#bagian1"> Ke Bagian 1&lt/a&gt<br>
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black"> 
+
+        <!-- Materi Mailto -->
+        <p class = "atributeee" align = "center" id = "mailto"><font color = "#CBBFA0"><b>
+            MAILTO</b></font><br><br>
+            &lta href="2272004@maranatha.ac.id?cc=2272004@maranatha.ac.id<br>
+            &bcc=2272037@maranatha.ac.id&subject=Permohonan%20Informasi
+            &body=Halo%20teman%20teman"&gtKirim email&lt/a&gt<br><br>
+
+            Hasilnya di email :<br>
+            To : 2272004@maranatha.ac.id<br>
+            Cc : 2272004@maranatha.ac.id<br>
+            Bcc : 2272037@maranatha.ac.id<br>
+            Subject : Permohonan Informasi<br>
+            Isi email : Halo teman<br>
+        </p>
+        <div class="tengah">
+            <a href="mailto:2272004@maranatha.ac.id?cc=2272004@maranatha.ac.id&bcc=2272037@maranatha.ac.id&subject=Permohonan%20Informasi&body=Halo%20teman%20teman" class="button">Kirim email</a>
+        </div>
+        
+        <hr width = "1150px" size = "5px" color = "black"> 
+
+        <!-- Materi Image -->
+        <p class = "atributee" align = "right" id = "image"><font color = "#CBBFA0"><b>
+            IMAGE</b></font><br><br>
+            &ltimg src="<font color = "#98A8F8">images</font>/<font color = "#BCCEF8">jejes.jpg</font>"&gt<br><br>
+            <font color = "#98A8F8">images</font> = folder dimana foto itu disimpan<br>
+            <font color = "#BCCEF8">jejes.jpg</font> = nama foto<br><br>
+            Menentukan panjang dan lebar foto memakai width dan height
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black"> 
+
+        <!-- Materi Tag Marquee -->
+        <p class = "atribute" id = "marquee"><font color = "#CBBFA0"><b>
+            MARQUEE</b></font><br><br>
+
+            <img src = "images/html/marquee.jpg" class = "marquee">
+            <br><br>
+            <marquee position="80" behavior="alternate" width = "1145px">
+                - UNIVERSITAS KRISTEN MARANATHA - UNIVERSITAS KRISTEN MARANATHA - UNIVERSITAS KRISTEN MARANATHA - UNIVERSITAS KRISTEN MARANATHA - UNIVERSITAS KRISTEN MARANATHA -
+            </marquee>
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Iframe -->
+        <p class = "atributeee" align = "center" id = "iframe"><font color = "#CBBFA0"><b>
+            IFRAME</b></font><br><br>
+            iFrame adalah frame di dalam frame, dan dikenal sebagai komponen elemen HTML 
+            yang memungkinkan Anda untuk embed dokumen, video, dan media interaktif di suatu laman.<br><br>
+
+            &ltiframe src="https://www.youtube.com/embed/aPd9exmH17o" width="680" height="480"&gt&lt/iframe&gt
+            <br><br>
+            Src disini mengacu pada link asal konten yang datang baik dari server eksternal ataupun internal.
+            <br><br>
+            HASIL :<br>
+            <img src = "images/html/hello.jpg" class = "hello">
+            <br><br>
+            <iframe src="https://www.youtube.com/embed/aPd9exmH17o" width="680" height="480"></iframe>
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi UL & LI / List -->
+        <p class = "atributee" align = "right" id = "ulol"><font color = "#CBBFA0"><b>
+            UNORDER LIST DAN ORDER LIST</b></font><br><br>
+            &ltul&gt<br>
+            Unorder list<br>
+            Typenya ada disc, square, circle, none
+        </p>
+        <br>
+
+        <table border = "0px" align = "center">
+            <tr>
+                <td><img src = "images/html/ul.jpg" class = "hasilul2"></td>
+                <td><img src = "images/html/ul hasil.jpg" class = "hasilul"></td>
+            </tr>
+        </table>
+
+        <p class = "atributee" align = "right">
+            &ltol&gt<br>
+            Order list<br>
+            Type nya ada 1, A, a, I, i<br>
+            Start = ".." start 7, berarti dimulai dari angka 7 tergantung typenya
+        </p>
+        <br>
+
+        <table border = "0px" align = "center">
+            <tr>
+                <td><img src = "images/html/ol.jpg" class = "hasilul2"></td>
+                <td><img src = "images/html/ol hasil.jpg" class = "hasilul"></td>
+            </tr>
+        </table>
+
+        <p class = "atributee" align = "right">
+            &ltdl&gt = definition list
+        </p>
+        <br>
+
+        <table border = "0px" align = "center">
+            <tr>
+                <td><img src = "images/html/dl.jpg" class = "hasildl"></td>
+                <td><img src = "images/html/dl hasil.jpg" class = "hasildl2"></td>
+            </tr>
+        </table>
+
+        <hr width = "1150px" size = "5px" color = "black">
+        
+        <!-- Materi Table -->
+        <p class = "atribute" id = "table"><font color = "#CBBFA0"><b>
+        TABLE</b></font><br><br>
+            &lttable&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lttr&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&lttd&gt&lt/td&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lt/tr&gt<br>
+            &lt/table&gt<br>
+            <br>
+            &lttr&gt = untuk baris<br>
+            &lttd&gt = untuk kolom
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Colspan & Rowspan -->
+        <p class = "atribute" align = "center" id = "cols"><font color = "#CBBFA0"><b>
+            COLSPAN & ROWSPAN</b></font><br><br>
+            Atribut rowspan digunakan untuk menggabungkan baris pada tabel.<br> 
+            Atribut colspan digunakan untuk menggabungkan kolom pada tabel.
+        </p>
+        <br>
+
+        <table border = "0px" align = "center">
+            <tr>
+                <td><img src = "images/html/colsrow.jpg" class = "colsrow"></td>
+                <td><img src = "images/html/colsrow hasil.jpg" class = "colsrow2"></td>
+            </tr>
+        </table>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Emmet -->
+        <p class = "atributee" align = "right" id = "emmet"><font color = "#CBBFA0"><b>
+            EMMET</b></font><br><br>
+            Emmet adalah plugin gratis untuk text editor yang dapat mempercepat kita menulis HTML & CSS. 
+            Dengan menggunakan Emmet, kita bisa mengetik HTML lebih sedikit sehingga waktu untuk menulis HTML & CSS menjadi lebih singkat.
+            <br><br>
+            Contoh :<br>
+            ol>li+li+li
+            ol>li*5
+            <br>
+            table>tr>th+th^tr>td+td
+            table>tr>td{item ke $}*5
+        </p>
+
+        <br>
+        <hr size="3px" color="#CBBFA0">
+
+        <!-- Navigation Intra Page Link -->
+        <footer>
+            <p class = "link">
+                <a href="#atr" class ="link">ATRIBUT DAN VALUE</a> | 
+                <a href="#head" class = "link">HEADING</a> | 
+                <a href="#par" class = "link">PARAGRAF</a> | 
+                <a href="#for" class = "link">FORMATTING</a> |
+                <a href="#font" class = "link">FONT</a> |
+                <a href="#link" class = "link">LINK</a> |
+                <a href="#intra" class = "link">INTRAPAGE LINK</a> |
+                <a href="#mailto" class = "link">MAILTO</a> |
+                <a href="#image" class = "link">IMAGE</a> |
+                <a href="#marquee" class = "link">MARQUEE</a> |
+                <a href="#iframe" class = "link">IFRAME</a> |
+                <a href="#ulol" class = "link">UNORDER LIST DAN ORDER LIST</a> <br>
+                <a href="#table" class = "link">TABLE</a> |
+                <a href="#cols" class = "link">COLSPAN & ROWSPAN</a> |
+                <a href="#emmet" class = "link">EMMET</a> 
+            </p>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+<!-- 
+    Referensi untuk materi html
+    https://www.eplusgo.com/html/html-font/
+    https://id.wikibooks.org/wiki/Pemrograman_HTML/Heading#:~:text=Tag%20heading%20biasanya%20digunakan%20untuk,%2C%20h4%20%2C%20h5%20%2C%20h6%20.
+    https://lmsspada.kemdikbud.go.id/mod/page/view.php?id=57744#:~:text=Paragraf%20adalah%20kumpulan%20dari%20beberapa,%3E%20%2C%20dan%20.
+    https://www.petanikode.com/html-link/
+    https://www.hostinger.co.id/tutorial/apa-itu-iframe#:~:text=iFrame%20adalah%20frame%20di%20dalam,webpage%20sekunder%20di%20beranda%20utama.
+    https://www.dicoding.com/blog/cara-membuat-table-di-html/#:~:text=Atribut%20rowspan%20digunakan%20untuk%20menggabungkan,untuk%20menggabungkan%20kolom%20pada%20tabel
+    https://kotakode.com/blogs/2782/Mempercepat-Penulisan-HTML-%26-CSS-dengan-Emmet
+    https://www.petanikode.com/html-form/
+    Modul Materi 1-4
+ -->

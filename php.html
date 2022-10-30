@@ -1,0 +1,287 @@
+<!-- 
+    +/-
+    2272004 - Jessica Alvina Luwia
+    2272037 - Rasyaad Hildebrand Gunawan
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>| Materi PHP</title>
+        <link rel="icon" href="images/logo_title.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/php.css">
+    </head>
+    <body>
+        <!-- Back Button -->
+        <a href = "index.html"><p class = "kembali" align = "right">&lt KEMBALI</p></a>
+        
+        <!-- JUDUL -->
+        <div class="judul">
+            <p class = "judulhtml"><b>PHP</b></p>
+        </div>
+
+        <br><br> 
+        
+        <!-- Navigation Intrapage Link -->
+        <hr size="3px" color="#CBBFA0">
+            <p class = "link">
+                <a href="#phpp" class ="link">PHP SEHERHANA</a> | 
+                <a href="#postngett" class = "link">POST DAN GET</a> | 
+                <a href="#formm" class = "link">FORM</a> | 
+                <a href="#comboboxx" class = "link">COMBOBOX</a> 
+            </p>
+        <hr size="3px" color="#CBBFA0">
+        <br>
+
+        <!-- Materi PHP Sederhana -->
+        <p class = "phpsederhana" id = "phpp">PHP SEDERHANA</p>
+
+        <table border = "0px" align = "center">
+            <tr>
+                <td><img src = "images/php/formphp.jpg" class = "fotomateriphp"></td>
+                <td><p class = "materiphp">Input</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src = "images/php/formacphp.jpg" class = "fotomateriacphp"></td>
+                <td><p class = "materiphp">Proses</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src = "images/php/hasil.jpg" class = "fotomaterihasilphp"></td>
+                <td><p class = "materiphp">Hasil</p>
+                </td>
+            </tr>
+        </table>    
+        <br>
+
+        <hr width = "1150px" size = "5px" color = "black">
+        
+        <!-- Materi Perbedaan post ($_POST) dan get ($_GET) -->
+        <p class = "postget" id = "postngett">
+            <font color = "#CBBFA0"><b>Perbedaan post ($_POST) dan get ($_GET)</b></font>
+            <br><br>
+            Method POST akan mengirimkan data atau nilai langsung ke action untuk ditampung, tanpa menampilkan pada URL.<br>
+            FORM → ACTION <br><br>
+            Sedangkan method GET akan menampilkan data/nilai pada URL, kemudian akan ditampung oleh action.<br>
+            FORM → URL → ACTION 
+        </p>
+
+        <hr width = "1150px" size = "5px" color = "black">
+
+        <!-- Materi Form -->
+        <p class = "postget" id = "formm">
+            <font color = "#CBBFA0"><b>FORM</b></font> 
+            <br><br>
+            tag : &ltform&gt
+            <br>
+            Untuk mengambil informasi.
+            <br><br>
+            &ltform <font color = "#F5C6A5">action</font>="prosess.php" method="GET"&gt<br>
+            &lt!-- form field di sini --&gt<br>
+            &lt/form&gt
+            <br><br>
+            <font color = "#F5C6A5">Action</font> : dapat diisi dengan halaman URL dari endpoint yang akan memproses form.
+        </p>
+        <br>
+
+        <p class = "postget">CONTOH :</p>
+        <p class = "postget2">
+            &lt!DOCTYPE html&gt<br>
+            &lthtml&gt<br>
+            &lthead&gt<br>
+            &nbsp&nbsp&nbsp&lttitle>Form Login&lt/title&gt<br>
+            &lt/head&gt<br><br>
+            &ltbody&gt<br>
+            &nbsp&nbsp&nbsp&ltform action="login.php" method="POST"&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp<font color = "#F8C4B4">&ltfieldset&gt</font><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp<font color = #FBF2CF>&ltlegend&gt</font>Login<font color = #FBF2CF>&lt/legend&gt</font><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&ltp&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltlabel&gtUsername:&lt/label&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput type="<font color = #FFCACA>text</font>" name="username" placeholder="username..." /&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lt/p&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&ltp&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltlabel&gtPassword:&lt/label&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput type="<font color = #FFCACA>password</font>" name="password" placeholder="password..." /&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lt/p&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&ltp&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltlabel&gt&ltinput type="<font color = #FFCACA>checkbox</font>" name="remember" value="remember" /&gt Remember me&lt/label&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lt/p&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&ltp&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltinput type="<font color = #FFCACA>submit</font>" name="submit" value="Login" /&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&lt/p&gt<br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp<font color = "#F8C4B4">&lt/fieldset&gt</font><br>
+            &nbsp&nbsp&nbsp&lt/form&gt<br><br>
+            &lt/body&gt<br>
+            &lt/html&gt<br>
+        </p>
+        
+        
+        <p class = "postget">HASIL :</p>        
+        <img src = "images/php/form.jpg" class = "fotoformm">
+        <br><br>
+        <form action="#formlegend" method="POST" style="color: white; font-family: Poppins;" class = "formm">
+            <fieldset>
+            <legend id="formlegend">Login</legend>
+            <p>
+                <label>Username:</label>
+                <input type="text" name="username" placeholder="username..." />
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="password..." />
+            </p>
+            <p>
+                <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Login" />
+            </p>
+            </fieldset>
+        </form>
+
+        <p class = "postget">
+        <font color = "#F8C4B4">Fieldset</font> = membuat garis luar<br>
+        <font color = #FBF2CF>Legend</font> = untuk memberi teks pada fieldset<br><br>
+
+        Type<br>
+        <font color = #FFCACA>Text</font> = input tipenya text<br>
+        <font color = #FFCACA>Password</font> = inputnya menjadi bulat-bulat<br>
+        <font color = #FFCACA>Checkbox</font> = untuk membuat checkbox<br>
+        <font color = #FFCACA>Submit</font> = untuk meng-submit
+        <br><br>
+
+
+        <table class = "table2" border = "0px" align = "center">
+            <tr>
+                <td>
+                <p class = "postget">
+                Berbagai value input type :<br>
+                <ul class = "postget">
+                    <li>Number</li>
+                    <li> Range</li>
+                    <li>File</li>
+                    <li>Image</li>
+                    <li>Color</li>
+                    <li>Data</li>
+                    <li>Datetime-local</li>
+                    <li>Time</li>
+                    <li>Month</li>
+                    <li>Week</li>
+                <ul>
+                </p>
+                </td>
+
+                <td><img src = "images/php/berbagaivalueform.jpg" class = "fotoinput"></td>
+            </tr>
+        </table>
+        
+        <form name="" method="post" action="" target="" style="color: white; font-family: Poppins; width: 1145px; margin-left: 50px; margin-right: 0px;"> <!-- method = post jdi invisible--> 
+            <fieldset>
+                <legend>Data Karyawan</legend>
+                Nama Lengkap <input type="text" id="fullname" name="fullname" value="Jejes" placeholder="isi woy"> 
+                <br>
+
+                Password : <input type="password" maxlength="5" size="50px" required placeholder="akwoakwo"> 
+                <br> 
+
+                Komentar : <br> <textarea name="textarea1" rows="10" cols="30"></textarea>
+                <br>
+
+                <input type="submit" value="Kirim">
+
+                <input type="reset" value="Batal"></reset>
+
+                <hr>
+
+                <input type="hidden">
+                Number : <input type="number" name="jumlah" min="1" max="5" step="2">
+                <br>
+
+                <input type="range" name="volume">
+                <br>
+
+                File : <input type="file" multiple>
+                <br>
+
+                Image : <input type="image" src="jejes.jpg" alt="Gambarku" width="100px" height="100px">
+                <br>
+
+                Color : <input type="color" name="warna">
+                <br>
+
+                Tanggal : <input type="date" name="tanggal" min="2022-10-01" max="2022-10-12">
+                <br>
+
+                Tanggal : <input type="datetime-local">
+                <br>
+
+                Waktu : <input type="time">
+                <br>
+
+                Bulan : <input type="month">
+                <br>
+
+                Minggu : <input type="week">
+            </fieldset>   
+        </form>
+        <!-- END Materi Form -->
+
+
+        <hr width = "1150px" size = "5px" color = "black">
+        
+        <!-- Materi ComboBox -->
+        <p class = "postget" id = "comboboxx">
+            <font color = "#CBBFA0"><b>COMBO BOX</b></font><br><br>
+        </p>
+
+        <table class = "table3" border = "0px" align = "center">
+                <td><p class = "postget">
+                    &ltselect&gt<br>
+                    &nbsp&nbsp&nbsp&ltoptgroup label = "Pilih MK"&gt<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltoption value = "webdasar">Web Dasar&lt/option&gt<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltoption value = "basisdata">Basis Data&lt/option&gt<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&ltoption value = "erp">ERP&lt/option&gt<br>
+                    &lt/select&gt
+                    </p>
+                </td>
+                <td> <img src = "images/php/combobox.jpg" class = "fotocombobox"></td>
+                <td>
+                    <select>
+                        <optgroup label = "Pilih MK">
+                            <option value = "webdasar">Web Dasar</option>
+                            <option value = "basisdata">Basis Data</option>
+                            <option value = "erp">ERP</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <!-- END Materi Combo Box -->
+    
+        <br>
+        <hr size="3px" color="#CBBFA0">
+
+        <!-- Navigation Intra Page Link -->
+        <footer>
+            <p class = "link">
+                <a href="#phpp" class ="link">PHP SEHERHANA</a> | 
+                <a href="#postngett" class = "link">POST DAN GET</a> | 
+                <a href="#formm" class = "link">FORM</a> | 
+                <a href="#comboboxx" class = "link">COMBOBOX</a> 
+            </p>    
+        </footer>
+        
+    </body>
+</html>
+
+<!-- 
+    Referensi untuk materi php
+    https://glints.com/id/lowongan/apa-itu-php-adalah/#.Y1KqIXZBxnI
+    https://www.dumetschool.com/blog/Proses-Input-Sederhana-PHP
+    https://www.dumetschool.com/blog/Perbedaan-Metode-POST-Dan-GET
+    Modul Materi 5
+ -->
